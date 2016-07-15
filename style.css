@@ -28,17 +28,21 @@ body{font-family: 'Open Sans', sans-serif;}
 }
 
 .logo{
-	padding:40px 0 30px 0;
+
+	padding:34px 0 34px 0;
 	float:left;
 }
 
 .main-navigation{
-	padding:46px 0 30px 0;
+	
+	margin-left:5px;
+	padding:39px 0 30px 0px;
 	float:right;
 	font-size:0;
 }
 
 .main-navigation li{
+	
 	display:inline-block;
 	list-style:none;
 
@@ -54,9 +58,10 @@ body{font-family: 'Open Sans', sans-serif;}
 	color:#58c93a;
 }
 .main-navigation a{
+	
 	border-right:2px solid black;
 	
-	padding:45px;
+	padding:40px 40px 50px 40px;
 	text-decoration: none;
 	color:#fff;
 
@@ -70,17 +75,18 @@ body{font-family: 'Open Sans', sans-serif;}
 /*--- news-block ---*/
 .news-block{
 	float:left;
-	
-	width: 620px;
+	width:62.8%;
+	/*width: 620px;*/
 }
 
 .news-block-item{
 	
-	margin-top:80px;}
-.news-block p{padding:0 10px 0 20px;}
+	margin-top:82px;}
+.news-block p{    padding: 0px 10px 11px 20px;}
 
 .news-block-title{
-	padding: 10px 0px 30px 24px;
+	line-height: 30px;
+	padding: 12px 0px 30px 24px;
 	text-transform: uppercase;
 	font-size: 30px;
 	font-weight: bold;
@@ -91,7 +97,7 @@ body{font-family: 'Open Sans', sans-serif;}
 	margin-left:20px;
 	margin-top:10px;
 	text-decoration: none;
-	padding:5px 15px 5px 15px;
+	padding: 6px 21px 6px 21px;
 	font-size: 16px;
 	line-height: 20px;
 	font-weight: bold;
@@ -102,9 +108,11 @@ body{font-family: 'Open Sans', sans-serif;}
 
 /*-- sudebar --*/
 .sidebar{
+	
 	padding-top:80px;
 	float:right;
-	width: 280px;
+	/*width: 280px;*/
+	width: 28.5%;
 	
 	
 }
@@ -113,7 +121,7 @@ body{font-family: 'Open Sans', sans-serif;}
 	border-left:3px solid #58c93a;
 	
 	background: #f8f8f8;
-	padding:10px 0 10px 20px;
+	padding:14px 0 14px 20px;
 	width:257px;
 	font-size: 16px;
 	font-weight: bold;
@@ -124,19 +132,19 @@ body{font-family: 'Open Sans', sans-serif;}
 	color:#b9b9b9;
 	font-size: 12px;
 	line-height: 20px;
-	padding:15px 0 15px 15px;
+	padding: 10px 0 15px 15px;
 	width:262px;
 	}
 .sidebar-search{
 	
-	margin-bottom:80px;
-	margin-top:37px;
+	margin-bottom: 61px;
+	margin-top: 22px;
 }
 
 .sidebar-navigation{
 	font-size: 0px;
-	padding:0;
-	padding:10px 0 65px 20px;
+	
+	padding: 15px 0 64px 20px;
 }
 .sidebar-navigation a{
 	color:#339933;
@@ -160,7 +168,7 @@ body{font-family: 'Open Sans', sans-serif;}
 	color:#b9b9b9;
 	font-size: 12px;
 	line-height: 20px;
-	padding:15px 0 15px 15px;
+	padding:13px 0 15px 15px;
 	width:262px;
 	}
 

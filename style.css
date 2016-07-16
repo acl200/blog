@@ -1,18 +1,19 @@
 .clearfix:after {
-
   content: "";
   display: table;
   clear: both;
 }
 
-body{font-family: 'Open Sans', sans-serif;}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
 .container{
 	margin:0 auto;
 	max-width: 980px;
 }
 
 .container2{
-	
+	padding-top:80px;
 	border:1px solid #b9b9b9;
 	border-top:none;
 	margin:0 auto;
@@ -23,29 +24,26 @@ body{font-family: 'Open Sans', sans-serif;}
 
 .main-header{
 	background:#292929;
-	border-bottom:5px solid black;
+	border-bottom:5px solid black;	
 	
 }
 
 .logo{
-
 	padding:34px 0 34px 0;
 	float:left;
 }
 
 .main-navigation{
-	
 	margin-left:5px;
 	padding:39px 0 30px 0px;
 	float:right;
 	font-size:0;
 }
 
+
 .main-navigation li{
-	
 	display:inline-block;
 	list-style:none;
-
 	font-size: 16px;
 	font-weight: bold;
 	vertical-align:top;
@@ -58,9 +56,7 @@ body{font-family: 'Open Sans', sans-serif;}
 	color:#58c93a;
 }
 .main-navigation a{
-	
 	border-right:2px solid black;
-	
 	padding:40px 40px 50px 40px;
 	text-decoration: none;
 	color:#fff;
@@ -72,7 +68,10 @@ body{font-family: 'Open Sans', sans-serif;}
 	color:#58c93a;
 }
 
+
 /*--- news-block ---*/
+
+
 .news-block{
 	float:left;
 	width:62.8%;
@@ -81,21 +80,30 @@ body{font-family: 'Open Sans', sans-serif;}
 
 .news-block-item{
 	
-	margin-top:82px;}
-.news-block p{    padding: 0px 10px 11px 20px;}
+}
+.news-block p{  
+      padding: 12px 10px 0px 20px;
+}
 
 .news-block-title{
+	color:#4f4e4e;
+	margin-top:13px;
 	line-height: 30px;
-	padding: 12px 0px 30px 24px;
+	padding: 0px 0px 0px 19px;
 	text-transform: uppercase;
 	font-size: 30px;
 	font-weight: bold;
 	
 }
-.btn:hover{color:#7c7878;}
+.btn:hover{color:#58c93a;border:2px solid #58c93a;}
+.btn:first-child{
+	margin-bottom:0;
+}
 .btn{
+	display: inline-block;
 	margin-left:20px;
 	margin-top:10px;
+	margin-bottom:80px;
 	text-decoration: none;
 	padding: 6px 21px 6px 21px;
 	font-size: 16px;
@@ -106,10 +114,12 @@ body{font-family: 'Open Sans', sans-serif;}
 	border-radius: 40px;
 }
 
+
 /*-- sudebar --*/
+
+
 .sidebar{
 	
-	padding-top:80px;
 	float:right;
 	/*width: 280px;*/
 	width: 28.5%;
@@ -118,8 +128,8 @@ body{font-family: 'Open Sans', sans-serif;}
 }
 
 .sidebar-title{
+	margin-top: 0;
 	border-left:3px solid #58c93a;
-	
 	background: #f8f8f8;
 	padding:14px 0 14px 20px;
 	width:257px;
@@ -128,24 +138,27 @@ body{font-family: 'Open Sans', sans-serif;}
 	color:#6c6969;
 	text-transform: uppercase;
 }
+
 .sidebar-search input{
 	color:#b9b9b9;
 	font-size: 12px;
 	line-height: 20px;
-	padding: 10px 0 15px 15px;
-	width:262px;
+	padding: 15px 0 15px 15px;
+	width: 281px;
 	}
+
+
 .sidebar-search{
-	
 	margin-bottom: 61px;
 	margin-top: 22px;
 }
-
+.sidebar-navigation a:hover{color:#142014;}
 .sidebar-navigation{
 	font-size: 0px;
-	
 	padding: 15px 0 64px 20px;
 }
+
+
 .sidebar-navigation a{
 	color:#339933;
 	font-size: 16px;
@@ -155,54 +168,72 @@ body{font-family: 'Open Sans', sans-serif;}
 }
 
 .sidebar-navigation li{
-
 	list-style: none;
 }
-
-.sidebar-email{
+.email-btn:hover{
 	
+	cursor:pointer;}
+.email-btn{
+
+	position:absolute;
+	right: 20px;
+    top: 33px;
+}
+.sidebar-email{
+	position:relative;
 	padding:20px 0 68px 0;
 }
 
-.sidebar-email input{
+input[type="email"]{
 	color:#b9b9b9;
 	font-size: 12px;
 	line-height: 20px;
-	padding:13px 0 15px 15px;
-	width:262px;
-	}
+	padding:13px 60px 15px 15px;
+	width:202px;
+}
 
-.btn-block{
+
+.btn-block{color:#818181;
 	padding:30px 0 30px 0;
 	border-right:1px solid #b9b9b9;
 	border-left:1px solid #b9b9b9;
 }
+
 .prev{
 	padding-left:55px;
 	float:left;}
-.next{float:right;
+
+.next{
+	float:right;
 	padding-right:55px;
 }
+.btn2 a:hover{text-decoration: underline;}
 .btn2{
-
-	color:#818181;
+	
 	text-decoration: none;
 	font-size: 18px;
 	font-weight: bold;
 	text-transform: uppercase;
 }
+
 .btn2 a{
+	color:#818181;
 	margin-top:80px;
 	text-decoration: none;}
+
+
+/* --- footer ---*/
+
 
 footer{
 	border-top:1px solid #b9b9b9;
 	text-align:center;
 	margin:0 auto;
-	background:#f8f8f8;}	
+	background:#f8f8f8;
+}	
 
 .footer-logo{
-	padding:70px 0 30px 0;
+	    padding: 80px 0 8px 0;
 }
 
 footer p{
@@ -214,3 +245,4 @@ footer span{
 	font-weight: bold;
 	color:#939292;
 }
+

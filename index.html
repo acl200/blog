@@ -10,7 +10,7 @@
 <body>
 	<header class="main-header">
 		<div class="container clearfix">
-			<a href="#" class="logo"><img src="img/logo.jpg"></a>
+			<a href="#" class="logo"><img src="img/logo.jpg" alt="blog"></a>
 
 			<nav>
 				<ul class="main-navigation">
@@ -25,8 +25,8 @@
 	<main class="container2 clearfix">
 		<div class="news-block">
 			<article class="news-block-item">
-				<img src="img/content-img.jpg" class="news-block-img">
-				<div class="news-block-title">Duis aute irure dolor in henderit in voluptate.</div>
+				<img src="img/content-img.jpg" alt="content-pict" class="news-block-img">
+				<h2 class="news-block-title">Duis aute irure dolor in henderit in voluptate.</h2>
 				<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipop ex ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
 
 				<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...</p>
@@ -36,28 +36,34 @@
 
 
 			<article class="news-block-item">
-				<img src="img/content2-img.jpg" class="news-block-img">
-				<div class="news-block-title">Duis aute irure dolor in henderit in voluptate.</div>
+				<img src="img/content2-img.jpg" alt="content-pict" class="news-block-img">
+				<h2 class="news-block-title">Duis aute irure dolor in henderit in voluptate.</h2>
 				<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipop ex ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
 
 				<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...</p>
+				
 				<a href="#" class="btn">Continue Reading </a>
+
 			</article>
+
+			
 		</div>
 		
 
 		<aside class="sidebar ">
-			<div class="sidebar-title">
+			<div class="widget">
+			<h2 class="sidebar-title">
 				search
-			</div>
+			</h2>
 
-			<div class="sidebar-search">
-				<input type="text" name="search" value="What are you looking for?">
+			<form action="" method="get" class="sidebar-search">
+				<input type="search" name="search" placeholder="What are you looking for?">
+			</form>
 			</div>
-
-			<div class="sidebar-title">
+			<div class="widget">
+			<h2 class="sidebar-title">
 				categories
-			</div>
+			</h2>
 			<nav>
 				<ul class="sidebar-navigation">
 					<li><a href="#">Weekend</a></li>
@@ -66,27 +72,32 @@
 					<li><a href="#">Holiday</a></li>
 				</ul>
 			</nav>
-			<div class="sidebar-title">
-				stay tuned
 			</div>
-			<div class="sidebar-email">
-			<input type="text" name="email" value="Your Email">
+			<div class="widget">
+			<h2 class="sidebar-title">
+				stay tuned
+			</h2>
+			<div class="sbscr">
+			<form action="" method="get" class="sidebar-email" >
+				<input type="email" name="email" placeholder="Your Email" >
+				<input type="image" src="img/email-btn.jpg" class="email-btn">
+			</form>
 			</div>
 			
-			<img src="img/sidebar.jpg">
+			<img src="img/sidebar.jpg" alt="banner">
 		</aside>
 	</main>
 
 	<div class="container btn-block clearfix">
-	<a href="#" class="prev btn2">previous</a>
-	<a href="#" class="next btn2">next</a>
-		</div>
+		<p class="prev btn2">&larr;<a href="#" >  previous</a></p>
+		<p class="next btn2"><a href="#" > next</a>&rarr;</p>
+	</div>
 	<footer>
-		<a href=""><img src="img/footer-logo.jpg" class="footer-logo"></a>
+		<a href=""><img src="img/footer-logo.jpg" alt="blog" class="footer-logo"></a>
 
 		<p>© 2016 Blogin.com  -  All Rights Reserved  -  Find more free Templates at <span>Pixelhint.com</span></p>
 
-	</footer>
+	</footer> 
 
 </body>
 </html>
